@@ -42,7 +42,7 @@ const Index = () => {
         style={{
           backgroundImage: `url('https://cdn.poehali.dev/files/9c9c342c-96d2-4bf2-8ee4-77297b1837f7.png')`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center 40%',
         }}
       >
         <div className="absolute inset-0 bg-white/40"></div>
@@ -50,18 +50,18 @@ const Index = () => {
           <div className="mb-8">
             <Icon name="Heart" size={64} className="mx-auto text-primary mb-4" />
           </div>
-          <h1 className="text-6xl md:text-8xl mb-4 text-[#d11154] font-extrabold text-center">
+          <h1 className="text-5xl md:text-8xl mb-4 text-[#d11154] font-extrabold text-center">
             Гильфан & Марьям
           </h1>
           <div className="w-32 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="md:text-3xl mb-8 text-[#ef145d] text-3xl font-normal text-center">
+          <p className="text-xl md:text-3xl mb-8 text-[#ef145d] font-normal text-center">
             Приглашаем вас разделить с нами
             <br />
             самый важный день в нашей жизни
           </p>
-          <div className="inline-block backdrop-blur-sm px-8 py-4 rounded-2xl shadow-lg bg-[#ffffff00]">
-            <p className="text-xl text-muted-foreground mb-2 font-medium">Дата свадьбы</p>
-            <p className="text-4xl font-bold text-primary">1 ноября 2025</p>
+          <div className="inline-block backdrop-blur-sm px-6 py-3 md:px-8 md:py-4 rounded-2xl shadow-lg bg-[#ffffff00]">
+            <p className="text-lg md:text-xl text-muted-foreground mb-2 font-medium">Дата свадьбы</p>
+            <p className="text-3xl md:text-4xl font-bold text-primary">1 ноября 2025</p>
           </div>
         </div>
       </section>
