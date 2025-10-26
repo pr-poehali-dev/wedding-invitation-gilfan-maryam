@@ -62,7 +62,7 @@ const Index = () => {
           </p>
           <div className="inline-block bg-white/90 backdrop-blur-sm px-8 py-4 rounded-2xl shadow-lg">
             <p className="text-xl text-muted-foreground mb-2">Дата свадьбы</p>
-            <p className="text-4xl font-bold text-primary">15 июня 2025</p>
+            <p className="text-4xl font-bold text-primary">1 ноября 2025</p>
           </div>
         </div>
       </section>
