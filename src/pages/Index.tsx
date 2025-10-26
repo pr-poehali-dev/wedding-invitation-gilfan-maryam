@@ -59,7 +59,7 @@ const Index = () => {
             <br />
             самый важный день в нашей жизни
           </p>
-          <div className="inline-block bg-white/90 backdrop-blur-sm px-8 py-4 rounded-2xl shadow-lg">
+          <div className="inline-block backdrop-blur-sm px-8 py-4 rounded-2xl shadow-lg bg-[#ffffff00]">
             <p className="text-xl text-muted-foreground mb-2">Дата свадьбы</p>
             <p className="text-4xl font-bold text-primary">1 ноября 2025</p>
           </div>
