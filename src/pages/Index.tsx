@@ -50,11 +50,11 @@ const Index = () => {
           <div className="mb-8">
             <Icon name="Heart" size={64} className="mx-auto text-primary mb-4" />
           </div>
-          <h1 className="text-6xl md:text-8xl mb-4 text-[#d11154] text-left font-extrabold">
+          <h1 className="text-6xl md:text-8xl mb-4 text-[#d11154] font-extrabold text-right">
             Гильфан & Марьям
           </h1>
           <div className="w-32 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-2xl md:text-3xl mb-8 text-[#ef145d] font-semibold text-left">
+          <p className="md:text-3xl mb-8 text-[#ef145d] text-3xl font-normal text-center">
             Приглашаем вас разделить с нами
             <br />
             самый важный день в нашей жизни
