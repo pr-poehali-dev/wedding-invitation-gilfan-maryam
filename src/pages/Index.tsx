@@ -126,9 +126,9 @@ const Index = () => {
               <div className="flex items-start gap-4 mb-6">
                 <Icon name="MapPin" size={32} className="text-primary mt-1" />
                 <div>
-                  <h3 className="text-3xl font-bold mb-2">Ресторан "Романтика"</h3>
+                  <h3 className="text-3xl font-bold mb-2">Банкетный комплекс "Империя"</h3>
                   <p className="text-lg text-muted-foreground mb-4">
-                    ул. Цветочная, 25, г. Казань
+                    ул. Боевая, 132 лит С
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
                     Уютный банкетный зал с панорамными окнами и видом на сад. 
