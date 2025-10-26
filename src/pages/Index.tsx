@@ -128,7 +128,7 @@ const Index = () => {
                 <div>
                   <h3 className="text-3xl font-bold mb-2">Банкетный комплекс "Империя"</h3>
                   <p className="text-lg text-muted-foreground mb-4">
-                    ул. Боевая, 132 лит С
+                    ул. Боевая, 132 лит С, г. Астрахань
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
                     Уютный банкетный зал с видом на сад. 
