@@ -91,7 +91,7 @@ const Index = () => {
                   <div className="flex-1">
                     <div className="flex items-baseline gap-3 mb-2">
                       <span className="font-bold text-primary text-sm">{item.time}</span>
-                      <h3 className="font-semibold text-foreground text-left text-base">{item.title}</h3>
+                      <h3 className="text-foreground text-left text-base font-extrabold">{item.title}</h3>
                     </div>
                     <p className="text-muted-foreground text-left text-sm">{item.description}</p>
                   </div>
