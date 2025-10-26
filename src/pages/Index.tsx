@@ -40,7 +40,7 @@ const Index = () => {
         id="home"
         className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
         style={{
-          backgroundImage: `url('https://cdn.poehali.dev/files/6644646f-e3f4-433d-98a2-659aff7572e0.jpg')`,
+          backgroundImage: `url('https://cdn.poehali.dev/files/6d1bb392-bee0-492e-82fa-3306dee08c36.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
