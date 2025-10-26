@@ -76,10 +76,8 @@ const Index = () => {
 
           <div className="space-y-6">
             {[
-              { time: '14:00', title: 'Сбор гостей', description: 'Приглашаем вас к началу торжества', icon: 'Users' },
-              { time: '15:00', title: 'Церемония бракосочетания', description: 'Официальная часть и обмен клятвами', icon: 'Heart' },
-              { time: '16:30', title: 'Фуршет и поздравления', description: 'Легкие закуски и напитки', icon: 'Wine' },
-              { time: '18:00', title: 'Праздничный банкет', description: 'Ужин и развлекательная программа', icon: 'Utensils' },
+              { time: '14:30', title: 'Церемония бракосочетания', description: 'Официальная часть и обмен клятвами', icon: 'Heart' },
+              { time: '17:00', title: 'Праздничный банкет', description: 'Ужин и развлекательная программа', icon: 'Utensils' },
               { time: '21:00', title: 'Танцы до утра', description: 'Веселье продолжается!', icon: 'Music' },
             ].map((item, index) => (
               <Card
