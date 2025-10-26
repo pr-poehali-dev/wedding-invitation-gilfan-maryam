@@ -42,7 +42,7 @@ const Index = () => {
         style={{
           backgroundImage: `url('https://cdn.poehali.dev/files/6d1bb392-bee0-492e-82fa-3306dee08c36.png')`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center 20%',
+          backgroundPosition: 'center 30%',
         }}
       >
         <div className="absolute inset-0 bg-white/40"></div>
@@ -50,7 +50,7 @@ const Index = () => {
           <div className="mb-8">
             <Icon name="Heart" size={64} className="mx-auto text-primary mb-4" />
           </div>
-          <h1 className="text-6xl md:text-8xl font-bold text-foreground mb-4">
+          <h1 className="text-6xl md:text-8xl mb-4 text-[#d11154] text-left font-extrabold">
             Гильфан & Марьям
           </h1>
           <div className="w-32 h-1 bg-primary mx-auto mb-6"></div>
