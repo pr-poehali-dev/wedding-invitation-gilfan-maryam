@@ -40,12 +40,12 @@ const Index = () => {
         id="home"
         className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
         style={{
-          backgroundImage: `url('https://cdn.poehali.dev/projects/37930a69-e942-4e59-b865-0a83567db53c/files/dc55be5c-7860-4737-92e8-8a9b47942376.jpg')`,
+          backgroundImage: `url('https://cdn.poehali.dev/files/6644646f-e3f4-433d-98a2-659aff7572e0.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-white/60 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-white/70 backdrop-blur-sm"></div>
         <div className="relative z-10 text-center px-4 animate-fade-in">
           <div className="mb-8">
             <Icon name="Heart" size={64} className="mx-auto text-primary mb-4" />
