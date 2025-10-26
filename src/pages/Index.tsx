@@ -67,7 +67,7 @@ const Index = () => {
       </section>
 
       <section id="program" className="py-20 px-4 relative">
-        <div className="absolute inset-0 flex items-center justify-center opacity-10">
+        <div className="absolute inset-0 flex items-center justify-center opacity-25">
           <img 
             src="https://cdn.poehali.dev/files/26bf5481-9127-431f-ba70-171c5df4e66e.png" 
             alt="Гильфан и Марьям"
