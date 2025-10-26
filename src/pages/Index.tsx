@@ -46,7 +46,7 @@ const Index = () => {
         }}
       >
         <div className="absolute inset-0 bg-white/40"></div>
-        <div className="relative z-10 text-center px-4 animate-fade-in">
+        <div className="relative z-10 text-center px-4 animate-fade-in bg-[#ffffff]">
           <div className="mb-8">
             <Icon name="Heart" size={64} className="mx-auto text-primary mb-4" />
           </div>
