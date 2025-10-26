@@ -66,8 +66,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="program" className="py-20 px-4">
-        <div className="container mx-auto max-w-4xl">
+      <section id="program" className="py-20 px-4 relative">
+        <div className="absolute inset-0 flex items-center justify-center opacity-10">
+          <img 
+            src="https://cdn.poehali.dev/files/26bf5481-9127-431f-ba70-171c5df4e66e.png" 
+            alt="Гильфан и Марьям"
+            className="h-full object-contain"
+          />
+        </div>
+        <div className="container mx-auto max-w-4xl relative z-10">
           <h2 className="text-5xl md:text-6xl font-bold text-center mb-4 animate-fade-in-up">
             Программа мероприятия
           </h2>
