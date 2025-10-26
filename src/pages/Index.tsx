@@ -54,7 +54,7 @@ const Index = () => {
             Гильфан & Марьям
           </h1>
           <div className="w-32 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-2xl md:text-3xl text-muted-foreground mb-8 font-light">
+          <p className="text-2xl md:text-3xl mb-8 text-[#ef145d] font-semibold text-left">
             Приглашаем вас разделить с нами
             <br />
             самый важный день в нашей жизни
