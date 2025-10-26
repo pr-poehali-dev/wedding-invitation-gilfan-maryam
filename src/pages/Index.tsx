@@ -20,7 +20,6 @@ const Index = () => {
               { id: 'home', label: 'Главная', icon: 'Home' },
               { id: 'program', label: 'Программа', icon: 'Calendar' },
               { id: 'venue', label: 'Место', icon: 'MapPin' },
-              { id: 'gallery', label: 'Фото', icon: 'Image' },
               { id: 'contacts', label: 'Контакты', icon: 'Phone' },
             ].map((item) => (
               <Button
@@ -145,40 +144,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="gallery" className="py-20 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <h2 className="text-5xl md:text-6xl font-bold text-center mb-4 animate-fade-in-up">
-            Наша история
-          </h2>
-          <div className="w-24 h-1 bg-primary mx-auto mb-12"></div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              'https://cdn.poehali.dev/projects/37930a69-e942-4e59-b865-0a83567db53c/files/9ba519af-bee2-4730-9181-1c410ce55438.jpg',
-              'https://cdn.poehali.dev/projects/37930a69-e942-4e59-b865-0a83567db53c/files/dc55be5c-7860-4737-92e8-8a9b47942376.jpg',
-              'https://cdn.poehali.dev/projects/37930a69-e942-4e59-b865-0a83567db53c/files/f0f5a290-8a35-4a9e-b6e2-de2fcad846e9.jpg',
-            ].map((img, index) => (
-              <Card
-                key={index}
-                className="overflow-hidden group cursor-pointer hover:shadow-2xl transition-all duration-300 border-2 border-border"
-              >
-                <div className="aspect-square relative overflow-hidden">
-                  <img
-                    src={img}
-                    alt={`Фото ${index + 1}`}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <Icon name="Eye" size={48} className="text-white" />
-                  </div>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="contacts" className="py-20 px-4 bg-gradient-to-b from-background to-secondary">
+      <section id="contacts" className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-5xl md:text-6xl font-bold text-center mb-4 animate-fade-in-up">
             Контакты
