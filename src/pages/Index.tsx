@@ -93,7 +93,7 @@ const Index = () => {
                       <span className="text-3xl font-bold text-primary">{item.time}</span>
                       <h3 className="text-2xl font-semibold text-foreground">{item.title}</h3>
                     </div>
-                    <p className="text-muted-foreground text-lg">{item.description}</p>
+                    <p className="text-muted-foreground text-lg text-left">{item.description}</p>
                   </div>
                 </div>
               </Card>
