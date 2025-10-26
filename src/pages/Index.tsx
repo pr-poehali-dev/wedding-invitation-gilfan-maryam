@@ -193,14 +193,14 @@ const Index = () => {
               <h3 className="text-2xl font-bold mb-3">Гильфан</h3>
               <div className="space-y-3">
                 <a
-                  href="tel:+79123456789"
+                  href="tel:+79648817711"
                   className="flex items-center justify-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Icon name="Phone" size={20} />
-                  +7 (912) 345-67-89
+                  +7 (964) 881-77-11
                 </a>
                 <a
-                  href="https://wa.me/79123456789"
+                  href="https://wa.me/79648817711"
                   className="flex items-center justify-center gap-2 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Icon name="MessageCircle" size={20} />
